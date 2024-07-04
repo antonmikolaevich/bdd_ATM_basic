@@ -1,0 +1,39 @@
+{
+  "name": "bdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.32.2",
+    "@wdio/cli": "^8.33.1",
+    "@wdio/cucumber-framework": "^8.33.1",
+    "@wdio/junit-reporter": "^8.32.2",
+    "@wdio/local-runner": "^8.33.1",
+    "@wdio/mocha-framework": "^8.32.3",
+    "@wdio/spec-reporter": "^8.32.4",
+    "allure-commandline": "^2.27.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.2",
+    "geckodriver": "^4.3.3",
+    "wdio-geckodriver-service": "^5.0.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.cjs"
+  },
+  "keywords": [
+    "BDD"
+  ],
+  "dependencies": {
+    "14": "^3.1.6",
+    "chromedriver": "^126.0.4",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": "Khrystsina Salouskaya",
+  "license": "ISC",
+  "description": ""
+}
